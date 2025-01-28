@@ -10,6 +10,8 @@ public class UnitTest1
     [Fact]
     public void FalseIsFalse()
     {
-        Assert.False(false);
+        //this was stupid
+        Assert.False(False);
+        Assert.True(false);
     }
 }
